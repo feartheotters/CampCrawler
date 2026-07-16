@@ -1,0 +1,622 @@
+{
+ "generatedAt": "2026-07-16T02:44:17.261Z",
+ "sources": {
+  "seed": 12
+ },
+ "campsites": [
+  {
+   "id": "seed-upper-pines",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/232447",
+   "name": "Upper Pines Campground",
+   "description": "The largest campground in Yosemite Valley, steps from trailheads to Vernal Fall and Half Dome. Reservations are extremely competitive in summer.",
+   "lat": 37.7362,
+   "lon": -119.5644,
+   "state": "CA",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer"
+   ],
+   "maxRigLength": 35,
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "pullThrough": false,
+   "maxPeople": 6,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "campfires_allowed",
+    "trash",
+    "dump_station",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "climbing",
+    "biking",
+    "wildlife",
+    "stargazing"
+   ],
+   "priceMin": 36,
+   "priceMax": 36,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232447",
+   "season": {
+    "open": "03-15",
+    "close": "11-30"
+   },
+   "elevationFt": 4000,
+   "cellCoverage": true,
+   "rating": 4.6,
+   "reviewCount": 1240,
+   "totalSites": 235
+  },
+  {
+   "id": "seed-watchman",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/232445",
+   "name": "Watchman Campground",
+   "description": "Zion National Park campground on the Virgin River, walking distance to the visitor center and shuttle. Electric sites available.",
+   "lat": 37.1983,
+   "lon": -112.9867,
+   "state": "UT",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer",
+    "group"
+   ],
+   "maxRigLength": 40,
+   "hookups": {
+    "electricAmps": [
+     30,
+     50
+    ],
+    "water": false,
+    "sewer": false
+   },
+   "pullThrough": false,
+   "maxPeople": 6,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "dump_station",
+    "waterfront"
+   ],
+   "activities": [
+    "hiking",
+    "climbing",
+    "wildlife",
+    "stargazing",
+    "biking"
+   ],
+   "priceMin": 30,
+   "priceMax": 130,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232445",
+   "season": "year-round",
+   "elevationFt": 3900,
+   "cellCoverage": true,
+   "rating": 4.7,
+   "reviewCount": 2103,
+   "totalSites": 176
+  },
+  {
+   "id": "seed-kalaloch",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/232464",
+   "name": "Kalaloch Campground",
+   "description": "Bluff-top campground overlooking the Pacific in Olympic National Park. Ocean views from many sites; no hookups.",
+   "lat": 47.6128,
+   "lon": -124.3742,
+   "state": "WA",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer"
+   ],
+   "maxRigLength": 35,
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 8,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "dump_station",
+    "waterfront"
+   ],
+   "activities": [
+    "hiking",
+    "fishing",
+    "wildlife",
+    "paddling"
+   ],
+   "priceMin": 24,
+   "priceMax": 24,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232464",
+   "season": "year-round",
+   "elevationFt": 50,
+   "cellCoverage": false,
+   "rating": 4.5,
+   "reviewCount": 890,
+   "totalSites": 168
+  },
+  {
+   "id": "seed-devils-garden",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/234059",
+   "name": "Devils Garden Campground",
+   "description": "The only campground inside Arches National Park, tucked among red rock fins 18 miles from the entrance. Spectacular stargazing.",
+   "lat": 38.7799,
+   "lon": -109.5892,
+   "state": "UT",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer",
+    "group"
+   ],
+   "maxRigLength": 40,
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 10,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash"
+   ],
+   "activities": [
+    "hiking",
+    "climbing",
+    "stargazing",
+    "wildlife"
+   ],
+   "priceMin": 25,
+   "priceMax": 25,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234059",
+   "season": "year-round",
+   "elevationFt": 5200,
+   "cellCoverage": false,
+   "rating": 4.8,
+   "reviewCount": 756,
+   "totalSites": 51
+  },
+  {
+   "id": "seed-jenny-lake",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/247664",
+   "name": "Jenny Lake Campground",
+   "description": "Tent-only campground in Grand Teton National Park with unbeatable views of the Teton range. No RVs or trailers permitted.",
+   "lat": 43.7547,
+   "lon": -110.7213,
+   "state": "WY",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent"
+   ],
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 6,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "climbing",
+    "paddling",
+    "wildlife",
+    "fishing"
+   ],
+   "priceMin": 38,
+   "priceMax": 38,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247664",
+   "season": {
+    "open": "05-01",
+    "close": "09-30"
+   },
+   "elevationFt": 6800,
+   "cellCoverage": false,
+   "rating": 4.9,
+   "reviewCount": 634,
+   "totalSites": 61
+  },
+  {
+   "id": "seed-alabama-hills",
+   "source": "seed",
+   "sourceUrl": "https://www.blm.gov/visit/alabama-hills",
+   "name": "Alabama Hills Dispersed Camping",
+   "description": "Iconic free dispersed camping among granite boulders below Mt. Whitney. No facilities — pack it in, pack it out. Permit required.",
+   "lat": 36.6091,
+   "lon": -118.1246,
+   "state": "CA",
+   "agency": "BLM",
+   "campingTypes": [
+    "dispersed",
+    "tent",
+    "van",
+    "rv"
+   ],
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "petsAllowed": true,
+   "amenities": [
+    "campfires_allowed"
+   ],
+   "activities": [
+    "hiking",
+    "climbing",
+    "stargazing",
+    "off_roading",
+    "wildlife"
+   ],
+   "priceMin": 0,
+   "priceMax": 0,
+   "reservation": "fcfs",
+   "season": "year-round",
+   "elevationFt": 4500,
+   "cellCoverage": true,
+   "rating": 4.7,
+   "reviewCount": 1580
+  },
+  {
+   "id": "seed-platte-river",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/232936",
+   "name": "Platte River Campground",
+   "description": "Modern campground in Sleeping Bear Dunes National Lakeshore with electric sites, showers, and a river float to Lake Michigan.",
+   "lat": 44.7106,
+   "lon": -86.0995,
+   "state": "MI",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer",
+    "group"
+   ],
+   "maxRigLength": 45,
+   "hookups": {
+    "electricAmps": [
+     30,
+     50
+    ],
+    "water": false,
+    "sewer": false
+   },
+   "pullThrough": true,
+   "maxPeople": 6,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "showers",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "dump_station",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "swimming",
+    "paddling",
+    "fishing",
+    "biking"
+   ],
+   "priceMin": 24,
+   "priceMax": 36,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232936",
+   "season": "year-round",
+   "elevationFt": 600,
+   "cellCoverage": true,
+   "rating": 4.6,
+   "reviewCount": 512,
+   "totalSites": 179
+  },
+  {
+   "id": "seed-bahia-honda",
+   "source": "seed",
+   "sourceUrl": "https://www.floridastateparks.org/parks-and-trails/bahia-honda-state-park",
+   "name": "Bahia Honda State Park Campground",
+   "description": "Florida Keys state park with white-sand beaches and snorkeling. Full-hookup RV sites and waterfront tent sites.",
+   "lat": 24.6656,
+   "lon": -81.2793,
+   "state": "FL",
+   "agency": "State Park",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer",
+    "cabin"
+   ],
+   "maxRigLength": 40,
+   "hookups": {
+    "electricAmps": [
+     30,
+     50
+    ],
+    "water": true,
+    "sewer": true
+   },
+   "maxPeople": 8,
+   "petsAllowed": false,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "showers",
+    "picnic_tables",
+    "trash",
+    "dump_station",
+    "camp_store",
+    "boat_ramp",
+    "waterfront"
+   ],
+   "activities": [
+    "swimming",
+    "fishing",
+    "paddling",
+    "boating",
+    "wildlife"
+   ],
+   "priceMin": 36,
+   "priceMax": 44,
+   "reservation": "reservable",
+   "reservationUrl": "https://reserve.floridastateparks.org",
+   "season": "year-round",
+   "elevationFt": 5,
+   "cellCoverage": true,
+   "rating": 4.8,
+   "reviewCount": 972,
+   "totalSites": 80
+  },
+  {
+   "id": "seed-white-river",
+   "source": "seed",
+   "sourceUrl": "https://www.fs.usda.gov/recarea/mbs/recarea/?recid=59894",
+   "name": "White River Campground",
+   "description": "Forested campground on the White River near the Sunrise entrance of Mount Rainier. First-come, first-served only.",
+   "lat": 46.9021,
+   "lon": -121.6437,
+   "state": "WA",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv"
+   ],
+   "maxRigLength": 27,
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 6,
+   "petsAllowed": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "wildlife",
+    "fishing",
+    "stargazing"
+   ],
+   "priceMin": 20,
+   "priceMax": 20,
+   "reservation": "fcfs",
+   "season": {
+    "open": "06-28",
+    "close": "09-29"
+   },
+   "elevationFt": 4400,
+   "cellCoverage": false,
+   "rating": 4.5,
+   "reviewCount": 318,
+   "totalSites": 112
+  },
+  {
+   "id": "seed-fruita",
+   "source": "seed",
+   "sourceUrl": "https://www.recreation.gov/camping/campgrounds/10004389",
+   "name": "Fruita Campground",
+   "description": "Green oasis in Capitol Reef National Park surrounded by historic orchards — pick fruit in season. Popular shoulder-season basecamp.",
+   "lat": 38.2825,
+   "lon": -111.2477,
+   "state": "UT",
+   "agency": "NPS",
+   "campingTypes": [
+    "tent",
+    "rv",
+    "trailer",
+    "group"
+   ],
+   "maxRigLength": 52,
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 8,
+   "petsAllowed": true,
+   "accessible": true,
+   "amenities": [
+    "drinking_water",
+    "flush_toilets",
+    "picnic_tables",
+    "fire_rings",
+    "trash",
+    "dump_station",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "biking",
+    "stargazing",
+    "wildlife",
+    "horseback"
+   ],
+   "priceMin": 25,
+   "priceMax": 25,
+   "reservation": "both",
+   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10004389",
+   "season": "year-round",
+   "elevationFt": 5400,
+   "cellCoverage": false,
+   "rating": 4.7,
+   "reviewCount": 445,
+   "totalSites": 71
+  },
+  {
+   "id": "seed-sawtooth-glamping",
+   "source": "seed",
+   "sourceUrl": "https://www.hipcamp.com",
+   "name": "Sawtooth View Glamping Ranch",
+   "description": "Private ranch stays with furnished canvas tents and mountain views near Stanley, Idaho. Hot showers and camp kitchen included.",
+   "lat": 44.2166,
+   "lon": -114.9312,
+   "state": "ID",
+   "agency": "Private",
+   "campingTypes": [
+    "glamping",
+    "tent",
+    "van"
+   ],
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "maxPeople": 4,
+   "petsAllowed": true,
+   "amenities": [
+    "drinking_water",
+    "showers",
+    "picnic_tables",
+    "fire_rings",
+    "campfires_allowed",
+    "wifi",
+    "shade"
+   ],
+   "activities": [
+    "hiking",
+    "fishing",
+    "paddling",
+    "stargazing",
+    "horseback"
+   ],
+   "priceMin": 89,
+   "priceMax": 149,
+   "reservation": "reservable",
+   "reservationUrl": "https://www.hipcamp.com",
+   "season": {
+    "open": "05-15",
+    "close": "10-15"
+   },
+   "elevationFt": 6200,
+   "cellCoverage": false,
+   "rating": 4.9,
+   "reviewCount": 87,
+   "totalSites": 6
+  },
+  {
+   "id": "seed-quartzsite",
+   "source": "seed",
+   "sourceUrl": "https://www.blm.gov/visit/la-posa-long-term-visitor-area",
+   "name": "La Posa Long Term Visitor Area",
+   "description": "Legendary BLM boondocking outside Quartzsite, Arizona. Winter home to thousands of RVers; dump station and water available on site.",
+   "lat": 33.6247,
+   "lon": -114.2205,
+   "state": "AZ",
+   "agency": "BLM",
+   "campingTypes": [
+    "dispersed",
+    "rv",
+    "trailer",
+    "van",
+    "tent"
+   ],
+   "hookups": {
+    "electricAmps": [],
+    "water": false,
+    "sewer": false
+   },
+   "pullThrough": true,
+   "petsAllowed": true,
+   "amenities": [
+    "vault_toilets",
+    "trash",
+    "dump_station",
+    "drinking_water"
+   ],
+   "activities": [
+    "off_roading",
+    "stargazing",
+    "wildlife",
+    "biking"
+   ],
+   "priceMin": 0,
+   "priceMax": 4,
+   "reservation": "fcfs",
+   "season": "year-round",
+   "elevationFt": 900,
+   "cellCoverage": true,
+   "rating": 4.3,
+   "reviewCount": 690
+  }
+ ]
+}

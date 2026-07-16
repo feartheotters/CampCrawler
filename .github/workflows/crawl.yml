@@ -1,0 +1,48 @@
+# Scheduled data pipeline: refresh public/data/campsites.json from all
+# sources and commit the result to main (which then triggers the Pages
+# deploy workflow).
+
+name: Refresh campsite data
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Comma-separated sources (ridb,osm,hipcamp,campendium)"
+        required: false
+        default: "ridb,osm,hipcamp,campendium"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "crawl"
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Run crawler
+        env:
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+        run: npm run crawl -- --sources=${{ github.event.inputs.sources || 'ridb,osm,hipcamp,campendium' }}
+      - name: Commit refreshed dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/campsites.json
+          if git diff --cached --quiet; then
+            echo "Dataset unchanged, nothing to commit."
+          else
+            git commit -m "chore: refresh campsite dataset"
+            git push
+          fi
